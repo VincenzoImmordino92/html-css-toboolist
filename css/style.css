@@ -12,7 +12,7 @@ body{
 .container{
   width: 50%;
   margin: 0px auto;
-padding-top: 30px;
+  padding-top: 30px;
 }
 
 .box-bianco{
@@ -21,43 +21,57 @@ padding-top: 30px;
 
 .box-bianco img{
   width: 100px;
+  vertical-align: middle;
 }
 
-.box-bianco img span {
-  float: left;
-  background-color: brown;
-  display:inline-block;
+h1{
+display: inline;  
 }
 
-.sfondogrigio{
+.sfondobianco{
   width: 800px;
   height: 600px;
   background-color: rgb(255, 255, 255);
-  border-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   padding: 20px;
 }
 
 .blocco{
   width: 800px;
   height: 60px;
-
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 3px;
 }
 .tasto-uno, .tasto-due{
   
-  padding: 5px;
+  padding: 10px;
   display: inline-block;
   border-radius: 5px;
   margin: 10px 3px;
+  padding 20px;
+  margin-left: 20px;
 }
 
 .tasto-uno{
-  border: 1px solid white;
-background-color: dodgerblue;
 
+border:none;
+background-color: dodgerblue;
+color: white;
+
+}
+
+.tasto-due{
+  border:1px solid rgb(235, 235, 235);
+  background-color: white;
+  color:rgb(235, 235, 235);;
 }
 
 ol li{
   list-style-type: none;
+  font-weight: 400;
 }
 
 li{
@@ -66,5 +80,5 @@ li{
 
 .grassetto{
   font-size: 3.rem;
-  font-weight: 800;
+  font-style: bold;
 }
