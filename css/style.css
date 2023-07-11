@@ -1,0 +1,70 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+body{
+  background-color: rgb(235, 235, 235);
+}
+
+.container{
+  width: 50%;
+  margin: 0px auto;
+padding-top: 30px;
+}
+
+.box-bianco{
+  background-color: rgb(255, 255, 255);
+}
+
+.box-bianco img{
+  width: 100px;
+}
+
+.box-bianco img span {
+  float: left;
+  background-color: brown;
+  display:inline-block;
+}
+
+.sfondogrigio{
+  width: 800px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.blocco{
+  width: 800px;
+  height: 60px;
+
+}
+.tasto-uno, .tasto-due{
+  
+  padding: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 10px 3px;
+}
+
+.tasto-uno{
+  border: 1px solid white;
+background-color: dodgerblue;
+
+}
+
+ol li{
+  list-style-type: none;
+}
+
+li{
+
+}
+
+.grassetto{
+  font-size: 3.rem;
+  font-weight: 800;
+}
