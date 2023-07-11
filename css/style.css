@@ -70,15 +70,42 @@ color: white;
 }
 
 ol li{
+  margin: 20px 0px;
   list-style-type: none;
   font-weight: 400;
 }
 
-li{
-
+ol span{
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
 }
 
 .grassetto{
   font-size: 3.rem;
   font-style: bold;
+}
+
+.editorial{
+  background-color: rgb(62, 130, 233);
+}
+
+.goals{
+  background-color: blueviolet;
+}
+
+.recruiting{
+  background-color: rgb(65, 131, 65);
+}
+
+.mobile{
+  background-color: orange;
+}
+
+.website{
+  background-color: rgb(179, 39, 148);
+}
+
+.sales{
+  background-color: rgb(168, 240, 53);
 }
